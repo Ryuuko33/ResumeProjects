@@ -1,0 +1,18 @@
+{
+    "name": "Psychoflow.SSWaterReflection2D.Editor",
+    "references": [
+        "GUID:e65b70a7caff4f0439780636cdb692a4",
+        "GUID:893eb5fbeedab204cb998aa4994830a4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

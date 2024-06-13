@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8797738365642885276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797738365642885278}
+  - component: {fileID: 8797738365642885279}
+  m_Layer: 0
+  m_Name: SSWaterReflectionProvider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797738365642885278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797738365642885276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8797738365642885279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797738365642885276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a50aa71ac31107429d2908cf11f5da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UseUnscaledTime: 0
+  m_ReferenceLocalY: 0
+  m_ScreenBoundFadeOut: 0.1
+  m_WaterScale: 1
+  m_DisplacementMode: 0
+  m_DisplacementTexture: {fileID: 2800000, guid: d0274603d8c8c5c4ea808d221fa601c1,
+    type: 3}
+  m_DisplacementSpeed: 0.05
+  m_UseSecondDisplacementTexture: 1
+  m_DisplacementSecondTexture: {fileID: 2800000, guid: 3939d14f2ee5db849a026ad9abebfdeb,
+    type: 3}
+  m_DisplacementSecondSpeedOffset: 0.05
+  m_VoronoiAngleOffset: 1
+  m_VoronoiAngleSpeed: 1.81
+  m_VoronoiCellDensity: 20.6
+  m_VoronoiPowerValue: 1.4
+  m_ReflectionTint: {r: 0.9386792, g: 1, b: 0.99543893, a: 1}
+  m_ReflectionDisplacementAmount: 0.233
+  m_ReflectionFoamWeight: 1
+  m_RefractionTint: {r: 1, g: 1, b: 1, a: 1}
+  m_RefractionDisplacementAmount: 0.1
+  m_RefractionFoamWeight: 0.5
+  m_FoamColor: {r: 1, g: 1, b: 1, a: 0.6745098}
+  m_FoamBlendMode: 3
+  m_FoamThreshold: 0.258
+  m_FoamEdgeThreshold: 2.2
+  m_EnablePerspectiveCorrection: 1
+  m_PerspectiveCorrectionStrength: 0.5
+  m_PerspectiveCorrectionContrast: 0.5
+  m_PerspectiveCorrectionMaxLength: 3
+  m_PerspectiveReflectionTiltY: 1

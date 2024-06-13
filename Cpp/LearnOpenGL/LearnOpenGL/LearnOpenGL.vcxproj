@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="shaders\AdvancedLighting\1_1_advanced_lighting.frag" />
+    <Content Include="shaders\AdvancedLighting\1_1_advanced_lighting.vert" />
+    <Content Include="shaders\AdvancedLighting\1_2_gamma_correction.frag" />
+    <Content Include="shaders\AdvancedLighting\1_2_gamma_correction.vert" />
+    <Content Include="shaders\AdvancedLighting\2_0_light_cube.frag" />
+    <Content Include="shaders\AdvancedLighting\2_0_light_cube.vert" />
+    <Content Include="shaders\AdvancedLighting\2_1_simple_depth.frag" />
+    <Content Include="shaders\AdvancedLighting\2_1_simple_depth.vert" />
+    <Content Include="shaders\AdvancedLighting\2_2_debug_quad.frag" />
+    <Content Include="shaders\AdvancedLighting\2_2_debug_quad.vert" />
+    <Content Include="shaders\AdvancedLighting\2_3_rendering_shadows.frag" />
+    <Content Include="shaders\AdvancedLighting\2_3_rendering_shadows.vert" />
+    <Content Include="shaders\AdvancedLighting\2_4_point_shadow_depth.frag" />
+    <Content Include="shaders\AdvancedLighting\2_4_point_shadow_depth.geom" />
+    <Content Include="shaders\AdvancedLighting\2_4_point_shadow_depth.vert" />
+    <Content Include="shaders\AdvancedLighting\2_5_point_shadow.frag" />
+    <Content Include="shaders\AdvancedLighting\2_5_point_shadow.vert" />
+    <Content Include="shaders\AdvancedLighting\3_1_simple_normal_mapping.frag" />
+    <Content Include="shaders\AdvancedLighting\3_1_simple_normal_mapping.vert" />
+    <Content Include="shaders\AdvancedLighting\3_2_tangent_space_normal_mapping.vert" />
+    <Content Include="shaders\AdvancedLighting\3_2_tangent_space_normal_mapping.frag" />
+    <Content Include="shaders\AdvancedLighting\4_1_displacement_mapping.frag" />
+    <Content Include="shaders\AdvancedLighting\4_1_displacement_mapping.vert" />
+    <Content Include="shaders\AdvancedLighting\5_0_lighting.frag" />
+    <Content Include="shaders\AdvancedLighting\5_0_lighting.vert" />
+    <Content Include="shaders\AdvancedLighting\5_1_hdr_shader.frag" />
+    <Content Include="shaders\AdvancedLighting\5_1_hdr_shader.vert" />
+    <Content Include="shaders\AdvancedLighting\6_1_bloom.frag" />
+    <Content Include="shaders\AdvancedLighting\6_1_bloom.vert" />
+    <Content Include="shaders\AdvancedLighting\7_0_debug.frag" />
+    <Content Include="shaders\AdvancedLighting\7_0_debug.vert" />
+    <Content Include="shaders\AdvancedLighting\7_1_g_buffer.frag" />
+    <Content Include="shaders\AdvancedLighting\7_1_g_buffer.vert" />
+    <Content Include="shaders\AdvancedLighting\7_2_lighting.frag" />
+    <Content Include="shaders\AdvancedLighting\7_2_lighting.vert" />
+    <Content Include="shaders\AdvancedLighting\7_3_light_cube.frag" />
+    <Content Include="shaders\AdvancedLighting\7_3_light_cube.vert" />
+    <Content Include="shaders\AdvancedLighting\8_1_ssao.frag" />
+    <Content Include="shaders\AdvancedLighting\8_1_ssao.vert" />
+    <Content Include="shaders\AdvancedLighting\8_2_ssao_blur.frag" />
+    <Content Include="shaders\AdvancedLighting\8_3_ssao_lighting.frag" />
+    <Content Include="shaders\AdvancedLighting\8_3_ssao_lighting.vert" />
+    <Content Include="shaders\AdvancedOpenGL\base_xy_shader.vert" />
+    <Content Include="shaders\AdvancedOpenGL\blend_vegetation.frag" />
+    <Content Include="shaders\AdvancedOpenGL\blend_vegetation.vert" />
+    <Content Include="shaders\AdvancedOpenGL\depthTest.frag" />
+    <Content Include="shaders\AdvancedOpenGL\depthTest.vert" />
+    <Content Include="shaders\AdvancedOpenGL\display_normal.frag" />
+    <Content Include="shaders\AdvancedOpenGL\display_normal.geom" />
+    <Content Include="shaders\AdvancedOpenGL\display_normal.vert" />
+    <Content Include="shaders\AdvancedOpenGL\explore_geo.geom" />
+    <Content Include="shaders\AdvancedOpenGL\framebuffer_colorbuffer.frag" />
+    <Content Include="shaders\AdvancedOpenGL\framebuffer_colorbuffer.vert" />
+    <Content Include="shaders\AdvancedOpenGL\green_color_shader.frag" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst.frag" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst.vert" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst_asteroid.frag" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst_asteroid.vert" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst_planet.frag" />
+    <Content Include="shaders\AdvancedOpenGL\Instantiation\inst_planet.vert" />
+    <Content Include="shaders\AdvancedOpenGL\model_explore.frag" />
+    <Content Include="shaders\AdvancedOpenGL\model_explore.vert" />
+    <Content Include="shaders\AdvancedOpenGL\pass_through_geo.geom" />
+    <Content Include="shaders\AdvancedOpenGL\reflecting_box.frag" />
+    <Content Include="shaders\AdvancedOpenGL\reflecting_box.vert" />
+    <Content Include="shaders\AdvancedOpenGL\refracting_box.frag" />
+    <Content Include="shaders\AdvancedOpenGL\refracting_box.vert" />
+    <Content Include="shaders\AdvancedOpenGL\skybox.frag" />
+    <Content Include="shaders\AdvancedOpenGL\skybox.vert" />
+    <Content Include="shaders\AdvancedOpenGL\stencil_single_color.frag" />
+    <Content Include="shaders\AdvancedOpenGL\stencil_single_color.vert" />
+    <Content Include="shaders\fragmentShader.glsl" />
+    <Content Include="shaders\fs_lighting_1_1.glsl" />
+    <Content Include="shaders\fs_multi_lights.glsl" />
+    <Content Include="shaders\fs_object_1_1.glsl" />
+    <Content Include="shaders\model_loading.frag" />
+    <Content Include="shaders\model_loading.vert" />
+    <Content Include="shaders\PBR\pbr_1.frag" />
+    <Content Include="shaders\PBR\pbr_1.vert" />
+    <Content Include="shaders\vs_lighting_1_1.glsl" />
+    <Content Include="shaders\vs_object_1_1.glsl" />
+    <Content Include="shaders\vertexShader.glsl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1DFEE2E6-8364-4607-AB21-916B67B52A96}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LearnOpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\OpenGL\includes;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>D:\OpenGL\libs;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

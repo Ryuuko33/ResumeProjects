@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprite-ReflectionWater
+  m_Shader: {fileID: 4800000, guid: 552c2320e70cc8642bbd2cfcf3d38a7e, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - FOAM_BLEND_NORMAL
+  - PERSPECTIVE_CORRECTION
+  - USE_COMPOSITE_TEX
+  m_InvalidKeywords:
+  - COLOR_OVERLAY_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementCompositeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementDetailTex:
+        m_Texture: {fileID: 2800000, guid: 69e6864c079880d49988b62fcbb6ab01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementTex:
+        m_Texture: {fileID: 2800000, guid: d0274603d8c8c5c4ea808d221fa601c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - COLOR_OVERLAY: 0
+    - FOAM_BLEND: 0
+    - GRADIENT_MAP: 0
+    - PixelSnap: 0
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisplacementCompositeSpeedOffset: 0.05
+    - _DisplacementSpeed: 1.6
+    - _DstBlend: 0
+    - _EnableExternalAlpha: 0
+    - _FoamEdgeThreshold: 2
+    - _FoamThreshold: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _PERSPECTIVE_CORRECTION: 1
+    - _Parallax: 0.02
+    - _PerspectiveCorrectionContrast: 0.5
+    - _PerspectiveCorrectionLength: 3
+    - _PerspectiveCorrectionMaxLength: 3
+    - _PerspectiveCorrectionStrength: 1
+    - _PerspectiveReflectionTiltY: 1
+    - _ReferenceWorldY: 1
+    - _RefernceLocalY: 0
+    - _ReflectionDisplacementAmount: 0.518
+    - _ReflectionFoamWeight: 1
+    - _RefractionDisplacementAmount: 0.02
+    - _RefractionFoamWeight: 0.5
+    - _ScreenBoundFadeOut: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _USE_COMPOSITE_TEX: 1
+    - _USE_DETAIL_TEX: 0
+    - _USE_UNSCALED_TIME: 0
+    - _UVSec: 0
+    - _VORONOI_NOISE_DISPLACEMENT: 0
+    - _VertexScale: 1
+    - _VoronoiAngleOffset: 1
+    - _VoronoiAngleSpeed: 1
+    - _VoronoiCellDensity: 14
+    - _VoronoiPower: 1.4
+    - _WaterScale: 10
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.3}
+    - _GradientTint: {r: 1, g: 1, b: 1, a: 1}
+    - _OverlayTint: {r: 1, g: 1, b: 1, a: 0}
+    - _ReflectionTint: {r: 0.7294118, g: 0.8117647, b: 1, a: 1}
+    - _RefractionTint: {r: 0.7, g: 0.8, b: 1, a: 0.75}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpriteUVScale: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{357E608C-4C03-3CBB-0487-69BE7E1B6E24}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RenderLearning3",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

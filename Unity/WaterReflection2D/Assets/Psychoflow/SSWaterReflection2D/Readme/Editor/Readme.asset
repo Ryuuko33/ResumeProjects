@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bde066d923d41941bd0dee466c5d58b, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: d0932397523f3a441bac7678611ec912, type: 3}
+  iconMaxWidth: 400
+  title: 'SSWR2D: Screen Space Water Reflection 2D'
+  gettingStartedSection:
+    heading: Getting Started
+    text: "Welcome to SS Water Relfection 2D! This is a simple tool to implement
+      water reflection for 2D games. \r\n\"SS\" stands for Screen Space. It also
+      can stand for Sprite Self. They are two different types of water reflection
+      for various situations.\r\n\r\nThere are a couple of sample scenes below that
+      show the possibilities with SSWR2D:\r\n1. \"Styles\": It's a overall demonstration
+      for the visual styles of water.\r\n\r\n2. \"Orthographic 2D\": It's a sample
+      for orthographic 2d platformer game. It also contains the \"Refraction\" feature
+      to hide underwater level.\r\n\r\n3. \"Perspective 2D\": It's a sample for perspective
+      2d platformer game which supports parallax scrolling natively. It also contains
+      the \"Sprite Self Reflection\" feature to reflect foreground objects.\r\n\r\n4.
+      \"Top-down RPG\": It's a sample for Top-down view or RpgMaker-like games. It's
+      also a good example for \"Sprite Self Reflection\" and how to write C# script
+      with it.\r\n\r\n5. \"Fake 3D\": It's a sample for faking the 3D water plane
+      with SSWR2D.\r\n\r\n6. \"Logo Scene\": Just a logo scene."
+    examples:
+    - icon: {fileID: 2800000, guid: 127d6f0dd07819248937f491d8ca4d78, type: 3}
+      title: Styles
+      sceneFile: {fileID: 102900000, guid: f4be885d775f0aa46967ebeba019c5aa, type: 3}
+    - icon: {fileID: 2800000, guid: b46dd420994013846b8d98b30322d9a8, type: 3}
+      title: Orthographic 2D
+      sceneFile: {fileID: 102900000, guid: 8a191640f690622438c2d1ad19f85f3e, type: 3}
+    - icon: {fileID: 2800000, guid: ba906bf7828fc9947a4ece48a7c12acc, type: 3}
+      title: Perspective 2D
+      sceneFile: {fileID: 102900000, guid: aa412a9f034afc24f979fea3fa791e56, type: 3}
+    - icon: {fileID: 2800000, guid: c968608bce8ee0d468b97fe1a9ce2061, type: 3}
+      title: Top-down RPG
+      sceneFile: {fileID: 102900000, guid: c05fda4da02abf94ea6cffa85da135ec, type: 3}
+    - icon: {fileID: 2800000, guid: 78f33d943cb88a94bbc433d17c2e3d23, type: 3}
+      title: Fake 3D
+      sceneFile: {fileID: 102900000, guid: 7d1db7d8a3351014a9e9ebf326316287, type: 3}
+    - icon: {fileID: 2800000, guid: f3c938072b5f8f14ea23813c90f8cee9, type: 3}
+      title: Logo Scene
+      sceneFile: {fileID: 102900000, guid: 6e6a75b5a78e1c94ca79824a5a3b134a, type: 3}
+  docSection:
+    heading: Documation
+    text: You can always reopen this window in Unity menu (Help/SS Water Relfection
+      2D). Take a moment to explore the documentation and tutorial videos of SS Water
+      Reflection 2D.
+    links:
+    - linkText: Youtube Tutorials
+      url: https://youtube.com/playlist?list=PLKEgfYRZssu30voDdRypTGz7O3QTeifrB
+      about: Watch how to use SSWR2D into your project, and how to take full advantage
+        of it.
+    - linkText: Documentation
+      url: https://psychoflowsutdio.gitlab.io/SSWaterReflection2D/
+      about: To know futher code details of SSWR2D.
+    - linkText: Psychoflow Studio
+      url: https://psychoflowstudio.com
+      about: Take a look at our other work! If you have any further questions, bug
+        report or any feedback, there are contact details in the website.
+  hasViewed: 1

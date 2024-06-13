@@ -1,0 +1,15 @@
+{
+    "name": "Psychoflow.SSWaterReflection2D",
+    "references": [
+        "GUID:e65b70a7caff4f0439780636cdb692a4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
